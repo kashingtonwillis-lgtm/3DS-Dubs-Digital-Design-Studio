@@ -1,5 +1,5 @@
 
-
+/* Style for the Main style/look of all elements */
 
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
@@ -26,9 +26,79 @@
       "ft";
   }
 }
+/* Style for the container element */
+ .ontainer {
+	width: 30%;
+	margin: 0 0;
+	
+}
+
+/* Style rules for form elements */
+
+fieldset  {
+    margin-bottom: 1%;
+}
+input {
+    margin-bottom: 1%;
+}
+fieldset legend {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    padding-top: 5%;
+}
+
+.btn {
+    border: solid;
+    margin: 0 auto;
+    display: auto;
+    padding: 0%;
+    background-color: #246cf8;
+    font-size: 1.25em;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Style for the forms element */   
+.form {
+    width: 60%;
+    margin: 0 auto;
+    }
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    }
+.btn {
+    grid-column: 1;
+    padding: 3%;
+    }
 header { grid-area: hd; background: #246cf8; padding: 5px; color: #FDFDFD;}
 main { grid-area: main; background: #ffffff; padding: 5px; margin: 5px;}
 h1 {color: limegreen;}
 .sidebar-l { grid-area: sd-l; background: #00bf63; padding: 5px; color: #FDFDFD}
 footer { grid-area: ft; background: #0e0707; padding: 5px; color: #FDFDFD;}
 h2, h1, h3, p, li {font-family: 'New Amsterdam', sans-serif;}
+table {
+  border: 8px solid #fff;
+  box-shadow: 12px 12px 10px limegreen;
+}
+/*Style Rule for for the td element*/
+td {
+  border: 1px solid #010000;
+}
+/*Style Rule that sets the background-color of the tr element*/
+tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+/*Style Rule that adds a box shadow to the table*/
+table {
+    box-shadow: 2px 2px 1px #ffe5dc;;
+}
+/*Style Rule that sets a default sans-serif font for the page body*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
