@@ -101,4 +101,35 @@ table {
 /*Style Rule that sets a default sans-serif font for the page body*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 95vh;
+	background-color: ;
+}
+#slider {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid #0000;
+	margin-bottom: 20px;
+}
+
+#slideimage {
+	width: 100%;
+	height: auto;
+	transition: opacity 0.5s ease;
+}
+
+#navigation {
+	display: flex;
+	gap: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
 }
