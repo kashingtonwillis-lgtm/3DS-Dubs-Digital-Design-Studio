@@ -110,16 +110,16 @@ body {
 }
 #slider {
 	width: 600px;
-	height: 400px;
+	height: 600px;
 	overflow: hidden;
-	position: relative;
+	position: center;
 	border: 2px solid #0000;
-	margin-bottom: 20px;
+	margin-bottom: 1px;
 }
 
 #slideimage {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	transition: opacity 0.5s ease;
 }
 
